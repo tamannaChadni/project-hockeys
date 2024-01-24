@@ -45,7 +45,7 @@
   <body>
     <header>
       <!-- navbar -->
-      <div class="container mx-auto my-8 px-8 lg:px-24">
+      <div class="container mx-auto my-8">
         <div class="navbar">
           <div class="navbar-start">
             <div class="dropdown">
@@ -82,37 +82,35 @@
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
-              <li><a class="text-theme-color">Home</a></li>
-              <li><a class="">About</a></li>
-              <li><a>Pages</a></li>
-              <li><a>Blog</a></li>
-              <li><a>Contact</a></li>
+              <li><a class="text-theme-color text-xl">Home</a></li>
+              <li><a class="text-xl">About</a></li>
+              <li><a class="text-xl">Pages</a></li>
+              <li><a class="text-xl">Blog</a></li>
+              <li><a class="text-xl">Contact</a></li>
             </ul>
           </div>
-          <div class="navbar-end flex justify-center items-center gap-4">
+          <div class="navbar-end flex items-center gap-4">
             <div class="hidden lg:block">
               <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-            <a class="btn bg-theme-color text-white">Get Ticket</a>
+            <a class="btn bg-theme-color text-white text-xl">Get Ticket</a>
           </div>
         </div>
       </div>
       <!-- navbar -->
       <!-- banner -->
-      <div class="container mx-auto my-8 px-8 lg:px-24">
-        <div class="carousel w-full">
-          <div id="slide1" class="carousel-item relative w-full">
+      <div class="container mx-auto my-8">
+        <div class="carousel w-full h-[250px] lg:h-[500px]">
+          <div
+            id="slide1"
+            class="carousel-item relative w-full bg-[url('./img/1.png')] bg-no-repeat bg-cover bg-center"
+          >
             <div>
-              <img
-                class="bg-cover bg-center rounded-lg"
-                src="./img/1.png"
-                alt=""
-              />
               <div
                 class="hidden lg:block absolute lg:bottom-8 lg:right-5 bg-black text-white px-6 py-8 rounded-xl"
               >
-                <h4>Meet all the heroes from the field</h4>
-                <p>It is unwise to seek personal acquaintance with people.</p>
+                <h4 class="text-xl font-bold">Meet all the heroes from the field</h4>
+                <p class="opacity-60">It is unwise to seek personal acquaintance with people.</p>
               </div>
             </div>
 
@@ -128,8 +126,10 @@
             </div>
           </div>
 
-          <div id="slide2" class="carousel-item relative w-full">
-            <img src="./img/1.png" class="bg-cover bg-center rounded-lg" />
+          <div
+            id="slide2"
+            class="carousel-item relative w-full bg-[url('./img/0.png')] bg-no-repeat bg-cover bg-center"
+          >
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
@@ -141,8 +141,10 @@
               >
             </div>
           </div>
-          <div id="slide3" class="carousel-item relative w-full">
-            <img src="./img/1.png" class="bg-cover bg-center rounded-lg" />
+          <div
+            id="slide3"
+            class="carousel-item relative w-full bg-[url('./img/0.png')] bg-no-repeat bg-cover bg-center"
+          >
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
@@ -154,8 +156,10 @@
               >
             </div>
           </div>
-          <div id="slide4" class="carousel-item relative w-full">
-            <img src="./img/1.png" class="bg-cover bg-center rounded-lg" />
+          <div
+            id="slide4"
+            class="carousel-item relative w-full bg-[url('./img/1.png')] bg-no-repeat bg-cover bg-center"
+          >
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
@@ -171,19 +175,18 @@
       </div>
       <!-- extra bagde -->
       <div
-      class="container lg:hidden block mx-auto my-8 p-5 bg-black text-white rounded-xl"
-    >
-      <h4>Meet all the heroes from the field</h4>
-      <p>It is unwise to seek personal acquaintance with people.</p>
-    </div>
+        class="container lg:hidden block mx-auto my-8 p-5 bg-black text-white rounded-xl"
+      >
+        <h4 class="text-xl font-bold">Meet all the heroes from the field</h4>
+        <p class="opacity-60">It is unwise to seek personal acquaintance with people.</p>
+      </div>
 
       <!-- banner -->
     </header>
-    
 
     <main>
       <!-- professional section -->
-      <div class="container mx-auto my-8 px-8 lg:px-24">
+      <div class="container mx-auto my-8">
         <div class="text-center border-dashed border-gray-200 border-2 py-2">
           <h2 class="font-extrabold text-4xl">Professional Hockeys Club</h2>
           <p class="mx-auto mt-5">
@@ -201,8 +204,8 @@
             >
               <span class="text-wrap text-black">87%</span>
             </div>
-            <h2 class="font-bold">Prayer Facility</h2>
-            <p>Athlete's Prayer for Hockey Match​​ Almighty God.</p>
+            <h2 class="text-xl font-bold">Prayer Facility</h2>
+            <p class="opacity-60">Athlete's Prayer for <br>Hockey Match​​ Almighty God.</p>
           </div>
 
           <div class="text-center">
@@ -213,8 +216,8 @@
             >
               <span class="text-wrap text-black">95%</span>
             </div>
-            <h2 class="font-bold">Experienced Coach</h2>
-            <p>Win as a team, lose as a team, Play hard or go home.</p>
+            <h2 class="text-xl font-bold">Experienced Coach</h2>
+            <p class="opacity-60">Win as a team, lose as a team, <br>Play hard or go home.</p>
           </div>
 
           <div class="text-center">
@@ -225,9 +228,9 @@
             >
               <span class="text-nowrap text-black">90%</span>
             </div>
-            <h2 class="font-bold">Senior Player</h2>
-            <p>
-              Show your love for this sport or support your favorite Hockey team
+            <h2 class=" text-xl font-bold">Senior Player</h2>
+            <p class="opacity-60">
+              Show your love for this sport or support your <br> favorite Hockey team
               .
             </p>
           </div>
@@ -239,14 +242,14 @@
             >
               <span class="text-wrap text-black">80%</span>
             </div>
-            <h2 class="font-bold">Training Ground</h2>
-            <p>Hockey is like therapy. It's where one leave behind the pain</p>
+            <h2 class="text-xl font-bold">Training Ground</h2>
+            <p class="opacity-60">Hockey is like therapy. <br>It's where one leave behind the pain</p>
           </div>
         </div>
       </div>
       <!-- professional section -->
       <!-- Program Section -->
-      <div class="container mx-auto my-8 px-8 lg:px-24">
+      <div class="container mx-auto my-8">
         <div class="text-center border-dashed border-gray-200 border-2 py-2">
           <h2 class="font-extrabold text-4xl">Program Sections</h2>
           <p class="mx-auto mt-5">
@@ -259,19 +262,21 @@
           class="grid lg:grid-rows-2 lg:grid-cols-2 gap-4 justify-center items-center my-2"
         >
           <div class="">
-            <div class="card bg-base-100 shadow-xl image-full">
-              <figure>
+            <div
+              class="card bg-base-100 shadow-xl image-full bg-[url('./img/2.png')] bg-no-repeat bg-cover bg-center"
+            >
+              <!-- <figure>
                 <img class="object-fill" src="./img/2.png" alt="hockey" />
-              </figure>
-              <div class="card-body my-auto align-text-bottom">
-                <h2 class="card-title">Junior Program</h2>
-                <p class="">
+              </figure> -->
+              <div class="card-body my-auto align-text-bottom lg:pt-48">
+                <h2 class="card-title text-2xl font-bold">Junior Program</h2>
+                <p class="opacity-60">
                   two year contracts in which the respective international
                   <br />organizations incorporate a variety of training
                   opportunities.
                 </p>
                 <div class="card-actions justify-start">
-                  <button class="btn bg-theme-color text-white">
+                  <button class="btn bg-theme-color text-white text-xl">
                     Register Now!
                   </button>
                 </div>
@@ -279,16 +284,18 @@
             </div>
           </div>
           <div class="">
-            <div class="card bg-base-100 shadow-xl image-full">
-              <figure><img src="./img/3.png" alt="hockey" /></figure>
-              <div class="card-body my-auto align-text-bottom">
-                <h2 class="card-title">Teenager Program</h2>
-                <p>
+            <div
+              class="card bg-base-100 shadow-xl image-full bg-[url('./img/3.png')] bg-no-repeat bg-cover bg-center"
+            >
+              <!-- <figure><img src="./img/3.png" alt="hockey" /></figure> -->
+              <div class="card-body my-auto align-text-bottom lg:pt-48">
+                <h2 class="card-title text-2xl font-bold">Teenager Program</h2>
+                <p class="opacity-60">
                   It's a unique experience for the local teens and <br />the
                   group from Haarlem to have a week long encounter together
                 </p>
                 <div class="card-actions justify-start">
-                  <button class="btn bg-theme-color text-white">
+                  <button class="btn bg-theme-color text-white text-xl">
                     Register Now!
                   </button>
                 </div>
@@ -296,16 +303,18 @@
             </div>
           </div>
           <div class="lg:col-span-2">
-            <div class="card bg-base-100 shadow-xl image-full">
-              <figure><img src="./img/4.png" alt="hockey" /></figure>
-              <div class="card-body my-auto align-text-bottom">
-                <h2 class="card-title">Professional Program</h2>
-                <p>
+            <div
+              class="card bg-base-100 shadow-xl image-full bg-[url('./img/4.png')] bg-no-repeat bg-cover bg-center"
+            >
+              <!-- <figure><img src="./img/4.png" alt="hockey" /></figure> -->
+              <div class="card-body my-auto align-text-bottom lg:pt-48">
+                <h2 class="card-title text-2xl font-bold">Professional Program</h2>
+                <p class="opacity-60">
                   Professional program means a program that provides information
                   <br />such as trends in an industry or discipline
                 </p>
                 <div class="card-actions justify-start">
-                  <button class="btn bg-theme-color text-white">
+                  <button class="btn bg-theme-color text-white text-xl">
                     Register Now!
                   </button>
                 </div>
@@ -317,7 +326,7 @@
       <!-- Program Section -->
 
       <!-- product section -->
-      <div class="container mx-auto my-8 px-8 lg:px-24">
+      <div class="container mx-auto my-8">
         <div class="text-center border-dashed border-gray-200 border-2 py-2">
           <h2 class="font-extrabold text-4xl">Our New Products</h2>
           <p class="mx-auto mt-5">
@@ -330,7 +339,7 @@
         >
           <!-- 1st -->
           <div
-            class="border-solid rounded-xl px-12 lg:px-0 py-4 border-gray-200 border-2 gap-3 lg:flex justify-center items-center"
+            class="border-solid rounded-xl px-2 py-4 border-gray-200 border-2 gap-3 lg:flex items-center"
           >
             <div>
               <img class="object-cover" src="./img/5.png" alt="" />
@@ -371,7 +380,7 @@
           </div>
           <!-- 2nd -->
           <div
-            class="border-solid rounded-xl px-12 lg:px-0 py-4 border-gray-200 border-2 gap-3 lg:flex justify-center items-center"
+            class="border-solid rounded-xl px-2 py-4 border-gray-200 border-2 gap-3 lg:flex items-center"
           >
             <div>
               <img src="./img/10.png" alt="" />
@@ -412,7 +421,7 @@
           </div>
           <!-- 3rd -->
           <div
-            class="border-solid rounded-xl px-12 lg:px-0 py-4 border-gray-200 border-2 gap-3 lg:flex justify-center items-center"
+            class="border-solid rounded-xl px-2 py-4 border-gray-200 border-2 gap-3 lg:flex items-center"
           >
             <div>
               <img src="./img/9.png" alt="" />
@@ -453,7 +462,7 @@
           </div>
           <!-- 4rd -->
           <div
-            class="border-solid rounded-xl px-12 lg:px-0 py-4 border-gray-200 border-2 gap-3 lg:flex justify-center items-center"
+            class="border-solid rounded-xl px-2 py-4 border-gray-200 border-2 gap-3 lg:flex items-center"
           >
             <div>
               <img src="./img/8.png" alt="" />
@@ -494,7 +503,7 @@
           </div>
           <!-- 5th -->
           <div
-            class="border-solid rounded-xl px-12 lg:px-0 py-4 border-gray-200 border-2 gap-3 lg:flex justify-center items-center"
+            class="border-solid rounded-xl px-2 py-4 border-gray-200 border-2 gap-3 lg:flex items-center"
           >
             <div>
               <img src="./img/6.png" alt="" />
@@ -535,7 +544,7 @@
           </div>
           <!-- 6th -->
           <div
-            class="border-solid rounded-xl px-12 lg:px-0 py-4 border-gray-200 border-2 gap-3 lg:flex justify-center items-center"
+            class="border-solid rounded-xl px-2 py-4 border-gray-200 border-2 gap-3 lg:flex items-center"
           >
             <div>
               <img src="./img/7.png" alt="" />
@@ -578,7 +587,7 @@
       </div>
       <!-- product section -->
       <!-- question section -->
-      <div class="container mx-auto my-8 px-8 lg:px-24">
+      <div class="container mx-auto my-8">
         <div class="text-center border-dashed border-gray-200 border-2 py-2">
           <h2 class="font-extrabold text-4xl">Clients Question</h2>
           <p class="mx-auto mt-5">
@@ -600,11 +609,11 @@
             <div class="col-span-2">
               <div class="collapse collapse-plus">
                 <input type="radio" name="my-accordion-3" checked="checked" />
-                <div class="collapse-title text-xl font-medium">
+                <div class="collapse-title text-2xl font-medium">
                   Our Equipment
                 </div>
                 <div class="collapse-content">
-                  <p>
+                  <p class="opacity-50">
                     Hockey stick and ball are the most important equipment
                     without which the sport cannot be played
                   </p>
@@ -613,12 +622,12 @@
 
               <div class="collapse collapse-plus">
                 <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title text-xl font-medium">
+                <div class="collapse-title text-2xl font-medium">
                   Hockey Training
                 </div>
 
                 <div class="collapse-content">
-                  <p>
+                  <p class="opacity-50">
                     Wind Sprints/Explosive Running. One of the best exercises
                     for hockey players to increase explosiveness
                   </p>
@@ -627,12 +636,12 @@
 
               <div class="collapse collapse-plus">
                 <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title text-xl font-medium">
+                <div class="collapse-title text-2xl font-medium">
                   Private Lessons
                 </div>
 
                 <div class="collapse-content">
-                  <p>
+                  <p class="opacity-50">
                     Some of the best tips to help first-time hockey coaches have
                     an easy and successful season
                   </p>
@@ -640,12 +649,12 @@
               </div>
               <div class="collapse collapse-plus">
                 <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title text-xl font-medium">
+                <div class="collapse-title text-2xl font-medium">
                   Ski Touring
                 </div>
 
                 <div class="collapse-content">
-                  <p>
+                  <p class="opacity-50">
                     some of the best tips to help first-time hockey coaches have
                     an easy and successful season
                   </p>
@@ -654,10 +663,10 @@
 
               <div class="collapse collapse-plus">
                 <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title text-xl font-medium">Booking</div>
+                <div class="collapse-title text-2xl font-medium">Booking</div>
 
                 <div class="collapse-content">
-                  <p>
+                  <p class="opacity-50">
                     The sport itself inherently has so much tension and
                     inherently has so much high risk and drama
                   </p>
@@ -665,9 +674,9 @@
               </div>
               <div class="collapse collapse-plus">
                 <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title text-xl font-medium">Pricings</div>
+                <div class="collapse-title text-2xl font-medium">Pricings</div>
                 <div class="collapse-content">
-                  <p>
+                  <p class="opacity-50">
                     Equipment Costs One of the main reasons why hockey is
                     expensive is the cost of equipment
                   </p>
@@ -679,7 +688,7 @@
       </div>
       <!-- question section -->
       <!-- get in touch section -->
-      <div class="container mx-auto my-8 px-8 lg:px-24">
+      <div class="container mx-auto my-8">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-3">
           <div
             class="border-solid rounded-xl border-gray-200 border-2 space-y-4 p-10"
@@ -689,22 +698,22 @@
               class="rounded-xl bg-gradient-to-r from-red-100 to-amber-100 p-5"
             >
               <img src="./img/Group1.png" alt="" />
-              <p>Phone Number :</p>
+              <p class="text-xl">Phone Number :</p>
               <p class="font-bold">(+62) 123-321-543</p>
             </div>
             <!-- 2nd -->
             <div class="rounded-xl bg-[#bced6d1a] p-5">
               <img src="./img/Group2.png" alt="" />
-              <p>Phone Number :</p>
-              <p class="font-bold">(+62) 123-321-543</p>
+              <p class="text-xl">Email :  :</p>
+              <p class="font-bold">hockeys@support.com</p>
             </div>
             <!-- 3rd -->
             <div
               class="rounded-xl bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF00] p-5"
             >
               <img src="./img/Group3.png" alt="" />
-              <p>Phone Number :</p>
-              <p class="font-bold">(+62) 123-321-543</p>
+              <p class="text-xl">Location :  :</p>
+              <p class="font-bold">152/1 Mohakhali Wireless Gate</p>
             </div>
           </div>
 
@@ -717,7 +726,7 @@
               <div>
                 <label class="form-control w-full">
                   <div class="label">
-                    <span class="label-text font-bold">Your Name</span>
+                    <span class="label-text font-bold text-xl">Your Name</span>
                   </div>
                   <input
                     type="text"
@@ -730,7 +739,7 @@
               <div>
                 <label class="form-control w-full">
                   <div class="label">
-                    <span class="label-text font-bold">Your Email</span>
+                    <span class="label-text font-bold text-xl">Your Email</span>
                   </div>
                   <input
                     type="text"
@@ -743,7 +752,7 @@
               <div>
                 <label class="form-control w-full">
                   <div class="label">
-                    <span class="label-text font-bold">Subject</span>
+                    <span class="label-text font-bold text-xl">Subject</span>
                   </div>
                   <input
                     type="text"
@@ -756,7 +765,7 @@
               <div>
                 <label class="form-control w-full">
                   <div class="label">
-                    <span class="label-text font-bold">Phone Number</span>
+                    <span class="label-text font-bold text-xl">Phone Number</span>
                   </div>
                   <input
                     type="text"
@@ -770,7 +779,7 @@
             <div>
               <label class="form-control w-full">
                 <div class="label">
-                  <span class="label-text font-bold">Message</span>
+                  <span class="label-text font-bold text-xl">Message</span>
                 </div>
                 <textarea
                   placeholder="write your message"
@@ -782,7 +791,7 @@
             </div>
             <!-- button -->
             <div class="mt-3">
-              <button class="bg-theme-color text-white rounded w-full p-3">
+              <button class="bg-theme-color text-white rounded w-full p-3 text-xl font-bold">
                 Send Message
               </button>
             </div>
@@ -791,7 +800,7 @@
       </div>
       <!-- get in touch section -->
       <!-- social section -->
-      <div class="container mx-auto my-8 px-8 lg:px-24">
+      <div class="container mx-auto my-8">
         <div class="text-center py-2">
           <footer
             class="footer footer-center p-10 bg-base-200 text-base-content rounded-xl"
@@ -845,11 +854,11 @@
     <footer>
       <!-- footer -->
       <div class="bg-black">
-        <div class="container mx-auto my-8 px-8 lg:px-24">
+        <div class="container mx-auto my-8">
           <footer class="footer p-10 text-base-content text-white">
             <aside>
               <h4 class="font-extrabold text-4xl">Get In Touch</h4>
-              <p>
+              <p class="  opacity-60">
                 We use cookies on this site to enhance your user experience .
                 <br />For a complete overview of all cookies used
               </p>
@@ -857,49 +866,49 @@
                 <div class="text-red-600">
                   <i class="fa-solid fa-phone"></i>
                 </div>
-                <p>(+62) 123-321-543</p>
+                <p class="  opacity-60">(+62) 123-321-543</p>
               </div>
               <div class="flex gap-2">
                 <div class="text-red-600">
                   <i class="fa-solid fa-message"></i>
                 </div>
-                <p>hockeys@support.com</p>
+                <p class="  opacity-60">hockeys@support.com</p>
               </div>
             </aside>
             <div class="grid grid-cols-2 lg:grid-cols-3 gap-10">
               <div>
-                <h2 class="font-extrabold">Company</h2>
-                <p>About us</p>
-                <p>Career</p>
-                <p>News & Article</p>
-                <p>Legal Notice</p>
-                <p>Leadership</p>
+                <h2 class="font-extrabold text-xl ">Company</h2>
+                <p class="  opacity-60">About us</p>
+                <p class="  opacity-60">Career</p>
+                <p class="  opacity-60">News & Article</p>
+                <p class="  opacity-60">Legal Notice</p>
+                <p class="  opacity-60">Leadership</p>
               </div>
               <div>
-                <h2 class="font-extrabold">Leadership</h2>
-                <p>About us</p>
-                <p>Career</p>
-                <p>News & Article</p>
-                <p>Legal Notice</p>
-                <p>Leadership</p>
+                <h2 class="font-extrabold text-xl">Leadership</h2>
+                <p class="  opacity-60">About us</p>
+                <p class="  opacity-60">Career</p>
+                <p class="  opacity-60">News & Article</p>
+                <p class="  opacity-60">Legal Notice</p>
+                <p class="  opacity-60">Leadership</p>
               </div>
               <!-- 3rd part -->
               <div class="hidden lg:block">
-                <h2 class="font-extrabold">Services</h2>
-                <p>Academy</p>
-                <p>Group Lesson</p>
-                <p>Private Lesson</p>
-                <p>Hockeys for kids</p>
-                <p>Hockeys for Adult</p>
+                <h2 class="font-extrabold text-xl">Services</h2>
+                <p class="  opacity-60">Academy</p>
+                <p class="  opacity-60">Group Lesson</p>
+                <p class="  opacity-60">Private Lesson</p>
+                <p class="  opacity-60">Hockeys for kids</p>
+                <p class="  opacity-60">Hockeys for Adult</p>
               </div>
             </div>
             <div class="lg:hidden block mx-auto">
-              <h2 class="font-extrabold">Services</h2>
-              <p>Academy</p>
-              <p>Group Lesson</p>
-              <p>Private Lesson</p>
-              <p>Hockeys for kids</p>
-              <p>Hockeys for Adult</p>
+              <h2 class="font-extrabold text-xl">Services</h2>
+              <p class="  opacity-60">Academy</p>
+              <p class="  opacity-60">Group Lesson</p>
+              <p class="  opacity-60">Private Lesson</p>
+              <p class="  opacity-60">Hockeys for kids</p>
+              <p class="  opacity-60">Hockeys for Adult</p>
             </div>
           </footer>
         </div>
